@@ -21,13 +21,15 @@ Gem::Specification.new do |s|
   s.files = [
     ".document",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
     "VERSION",
     "lib/vidzygo.rb",
     "test/helper.rb",
-    "test/test_vidzygo.rb"
+    "test/test_vidzygo.rb",
+    "vidzygo.gemspec"
   ]
   s.homepage = "http://github.com/yacc/vidzygo"
   s.licenses = ["Copyright Ybsis Inc."]
