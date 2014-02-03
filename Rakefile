@@ -16,14 +16,16 @@ Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://guides.rubygems.org/specification-reference/ for more options
   gem.name = "vidzygo"
   gem.homepage = "http://github.com/yacc/vidzygo"
-  gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.license = "Copyright Ybsis Inc."
+  gem.summary = %Q{Client code for VidZyGo}
+  gem.description = %Q{Client code for interacting with VidZyGo.com}
   gem.email = "yacinb@ybsis.com"
   gem.authors = ["Yacin Bahi"]
   # dependencies defined in Gemfile
 end
-Jeweler::RubygemsDotOrgTasks.new
+
+# We don't want to mistakenly release our private gem to Gemcutter
+# Jeweler::RubygemsDotOrgTasks.new
 
 require 'rake/testtask'
 Rake::TestTask.new(:test) do |test|
