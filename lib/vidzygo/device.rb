@@ -1,8 +1,13 @@
+require 'pp'
+
 module Vidzygo
+  
   class Device
+
     def initialize(type)
       @type = type
     end
+
     def display(msg_type,msg)
       case msg_type
       when :error
@@ -13,5 +18,7 @@ module Vidzygo
         pp "Success: #{msg} "            
       end
     end
+
   end  
+
 end
