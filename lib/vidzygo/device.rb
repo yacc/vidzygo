@@ -1,4 +1,4 @@
-module VidZyGo
+module Vidzygo
   class Device
     def initialize(type)
       @type = type

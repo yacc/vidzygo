@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.authors = ["Yacin Bahi"]
   s.date = "2014-02-04"
-  s.description = "Client code for interacting with VidZyGo.com"
+  s.description = "Client code for interacting with vidzygo.com"
   s.email = "yacinb@ybsis.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -40,7 +40,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/yacc/vidzygo"
   s.licenses = ["Copyright Ybsis Inc."]
   s.rubygems_version = "2.2.0"
-  s.summary = "Client code for VidZyGo"
+  s.summary = "Client code for vidzygo"
 
   if s.respond_to? :specification_version then
     s.specification_version = 4

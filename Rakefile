@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "vidzygo"
   gem.homepage = "http://github.com/yacc/vidzygo"
   gem.license = "Copyright Ybsis Inc."
-  gem.summary = %Q{Client code for VidZyGo}
-  gem.description = %Q{Client code for interacting with VidZyGo.com}
+  gem.summary = %Q{Client code for vidzygo}
+  gem.description = %Q{Client code for interacting with vidzygo.com}
   gem.email = "yacinb@ybsis.com"
   gem.authors = ["Yacin Bahi"]
   # dependencies defined in Gemfile

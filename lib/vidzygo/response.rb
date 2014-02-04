@@ -1,4 +1,4 @@
-module VidZyGo
+module Vidzygo
   class Response
 
     def initialize(code,message)

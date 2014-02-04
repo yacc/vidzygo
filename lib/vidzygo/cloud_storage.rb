@@ -1,9 +1,9 @@
-module VidZyGo
+module Vidzygo
   class CloudStorage
 
     def initialize(token)
       @token = token
-      # make an API call to VidZyGo and set the cloud storage provider
+      # make an API call to vidzygo and set the cloud storage provider
       @provider = :s3
     end
 
