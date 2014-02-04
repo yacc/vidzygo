@@ -1,3 +1,5 @@
-class Photo
+module VidZyGo
+  class Photo
 
+  end  
 end
