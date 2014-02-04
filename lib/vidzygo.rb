@@ -4,3 +4,7 @@ require 'vidzygo/fs_reader'
 require 'vidzygo/video'
 require 'vidzygo/photo'
 require 'vidzygo/response'
+
+module Vidzygo
+  
+end
