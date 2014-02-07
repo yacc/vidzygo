@@ -7,6 +7,7 @@ require 'vidzygo/fs_reader'
 require 'vidzygo/video'
 require 'vidzygo/photo'
 require 'vidzygo/response'
+require 'vidzygo/api'
 
 module Vidzygo
   
