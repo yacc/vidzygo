@@ -1,8 +1,9 @@
 module Vidzygo
   class FsReader
 
-    def initialize(type)
+    def initialize(type,path=nil)
       @type = type
+      @path = path
     end
 
     def videos

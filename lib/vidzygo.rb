@@ -1,3 +1,6 @@
+require 'rubygems'
+require 'bundler/setup'
+
 require 'vidzygo/device'
 require 'vidzygo/cloud_storage'
 require 'vidzygo/fs_reader'
