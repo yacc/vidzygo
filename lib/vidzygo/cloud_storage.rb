@@ -12,12 +12,11 @@ module Vidzygo
       @access_key_id = storage['access_key_id']
       @secret_access_key = storage['secret_access_key']
 
-      AWS.config(
-        :access_key_id => @access_key_id, 
-        :secret_access_key => @secret_access_key
-        )
+      @s3 = AWS::S3.new(
+                    :access_key_id => @access_key_id,
+                    :secret_access_key => @secret_access_key) 
+
       @bucket_name = 'vidzygo'
-      @s3 = AWS::S3.new
     end
 
     def upload(file_name,key)

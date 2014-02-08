@@ -1,4 +1,5 @@
 require 'rest_client'
+require 'json'
 
 module Vidzygo
   class Api
@@ -8,9 +9,10 @@ module Vidzygo
       @resource = RestClient::Resource.new "http://vidzygo.dev/#{resource}"
     end
 
-    def create(load)
-        load.merge! {user_token:@token}
-        response = @resource.put load, {:content_type => :json, :accept => :json}
+    def create(load = {})
+        load.merge!({user_token:@token})
+        response = @resource.post load, {:content_type => :json, :accept => :json}
+        JSON.parse(response)
     end 
 
     def get
