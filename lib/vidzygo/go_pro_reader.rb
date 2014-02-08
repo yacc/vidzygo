@@ -2,7 +2,7 @@ module Vidzygo
   class GoProReader << FsReader
 
     def videos
-      Dir.glob("#{path}/*.{mp4}") 
+      Dir.glob("#{path}/*.{MP4}") 
     end
 
     def photos

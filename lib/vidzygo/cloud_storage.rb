@@ -6,7 +6,7 @@ module Vidzygo
     def initialize(token)
       @token = token
       # make an API call to vidzygo and set the cloud storage provider
-      storage = Vidzygo::Api.new('fake','storages').get
+      storage = Vidzygo::Api.new(@token,'storages').get
 
       @provider = storage['provider']
       @access_key_id = storage['access_key_id']
